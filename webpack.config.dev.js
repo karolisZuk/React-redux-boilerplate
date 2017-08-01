@@ -4,7 +4,9 @@ export default {
   devtool: 'eval-sourve-map',
   entry: path.join(__dirname, '/client/index.js'),
   output: {
-    path: '/'
+    path: __dirname,
+    filename:'bundle.js',
+    publicPath:'/'
   },
   module: {
     loaders: [{test: /\.js$/,
