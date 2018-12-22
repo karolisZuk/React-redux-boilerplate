@@ -25,6 +25,8 @@ class App extends React.Component {
               <Route exact path='/informacija' component={Informacija} />
               <Route exact path='/zmones' component={Zmones} />
               <Route exact path='/failai' component={Failai} />
+              <Route exact path='/failai2' component={Failai2} />
+              <Route exact path='/failai3' component={Failai3} />
               <Route exact path='/statistika' component={Statistika} />
             </div>
           </Router>
